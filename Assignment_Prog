@@ -2,6 +2,7 @@
 
 
 ## Create a matrix object
+## MakeCacheMatrix consists of set, get, setinv, getinv
 MakeCacheMatrix <- function( m = matrix() ) {
 
 	## Beginning
