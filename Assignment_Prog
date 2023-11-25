@@ -1,8 +1,8 @@
 ## Put comments here that give an overall description of what your functions do
 ## To cache inverse of the matrix
 ## Create a matrix object
-## MakeCacheMatrix consists of set, get, setinv, getinv
-MakeCacheMatrix <- function( m = matrix() ) {
+## makeCacheMatrix consists of set, get, setinv, getinv
+makeCacheMatrix <- function( m = matrix() ) {
 
 	## Beginning
     k <- NULL
@@ -37,7 +37,7 @@ MakeCacheMatrix <- function( m = matrix() ) {
 }
 
 
-## Inverse of the matrix returned by "MakeCacheMatrix"
+## Inverse of the matrix returned by "makeCacheMatrix"
 ## If the inverse has been calculated (and the matrix did not
 ## changed), then "cachesolve" retrieves the inverse from cache
 cacheSolve <- function(x, ...) {
